@@ -3,9 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "workspaces": [
+    "api"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:api": "npm run dev -w api"
   },
   "keywords": [],
   "author": "",
